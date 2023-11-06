@@ -10,7 +10,7 @@ function App() {
     <>
       <h1>Chai Aur Redux ToolKit</h1>
       <AddToDo update={update}/>
-      <ToDo updateObj={{update, setUpdate}} />
+      <ToDo  updateObj={{update,setUpdate}}/>
     </>
   )
 }
