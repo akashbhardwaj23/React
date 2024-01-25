@@ -7,7 +7,7 @@ export default function ThemeBtn() {
 
     const onChangeBtn = (e) => {
         const lightModeStatus = e.currentTarget.checked
-        if (lightModeStatus) { lightTheme()    }
+        if (lightModeStatus) { lightTheme() }
         else { darkTheme() }
         
     }
